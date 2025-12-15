@@ -30,7 +30,7 @@ function drawBase() {
   // Caleçon (disparaît si pantalon est activé)
   if (!santa.pants) {
     for (let x = 12; x < 20; x++) {
-      for (let y = 26; y < 30; y++) px(x, y, "#ffffff");
+      for (let y = 26; y < 30; y++) px(x, y, "#ffffffff");
     }
   }
 
@@ -41,7 +41,7 @@ function drawBase() {
 
   // Barbe
   for (let x = 11; x < 21; x++) {
-    for (let y = 14; y < 19; y++) px(x, y, "#ffffff");
+    for (let y = 14; y < 19; y++) px(x, y, "#f0e7e7ff");
   }
 
   // Yeux (plus naturels)
