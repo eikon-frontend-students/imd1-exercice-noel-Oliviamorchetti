@@ -1,0 +1,33 @@
+body {
+  font-family: "Pixelify Sans", sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 56px;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+  font-size: 30px;
+}
+
+#items {
+  width: 140px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  padding: 10px;
+  cursor: grab;
+  border: 2px solid;
+  text-align: center;
+}
+
+canvas {
+  margin: auto;
+  image-rendering: pixelated;
+}
